@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spot</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="" class="logo">&nbsp;&nbsp; <span><b>TOURIST</b></span> &nbsp;SPOT</a>
+
+    <nav class="navbar">
+        <a href="#home"><b>HOME</b></a>
+        <a href="#book"><b>BOOK</b></a>
+        <!-- <a href="#packages"><b>PACKAGES</b></a> -->
+        <!-- <a href="#services"><b>SERVICES</b></a> -->
+        <a href="#gallery"><b>GALLERY</b></a>
+        <a href="#contact"><b>CONTACT</b></a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  starts-->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Email">
+        <input type="password" class="box" placeholder="password">
+        <input type="submit" value="login now" class="btn">
+        <label for="remember">remember me</label>
+        &nbsp;&nbsp;<input type="checkbox" id="remember">
+        <br>
+        <p>forget password ? <a href="#">&nbsp;click here</a></p>
+        <br>
+        <p>don't have an account ? <a href="#">&nbsp;register now</a></p>
+    </form>
+
+</div>
+
+<!-- login form container ends-->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Beautiful One Day, Perfect The Next</h3>
+        <p>Adventure Awaits, Go Find It.</p>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/video 1.mp4"></span>
+        <span class="vid-btn" data-src="images/video 2.mp4"></span>
+        <span class="vid-btn" data-src="images/video 3.mp4"></span>
+        <span class="vid-btn" data-src="images/video 4.mp4"></span>
+        <span class="vid-btn" data-src="images/video 5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/video 1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/1.jpg" alt="">
+        </div>
+
+        <form>
+            <div class="inputBox">
+                <h3>Enter Place Name</h3>
+                <input type="text" placeholder="Enter Place Name">
+            </div>
+            <div class="inputBox">
+                <h3>Number of Guests</h3>
+                <input type="number" placeholder="Number of Guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrival Date</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving Date</h3>
+                <input type="date">
+            </div>
+            <a href="https://www.makemytrip.com" class="btn">BOOK NOW</a>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Goa</h3>
+                <br>
+                <p>Famous for its pristine beaches, hippie vibes, and vibrant parties, Goa is counted among the best holiday destinations in India.If you are looking for a peaceful and economical holiday, try to visit Goa.</p>
+               <br>
+                <a href="https://www.tourmyindia.com/states/goa/" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Mysore Palace</h3>
+                <br>
+                <p>In the southern tip of India, you'll find the city of Mysore. Once the capital of the Wodeyar dynasty, Mysore is best known for housing the magnificent Mysore Palace.</p>
+                <a href="https://www.holidify.com/places/mysore/mysore-palace-sightseeing-2954.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Ellora & Ajanta Caves</h3>
+                <br>
+                <p>In the state of Maharashtra at Ellora, there is an enormous complex of shrines carved from the rocky landscape. The Ajanta caves are covered in paintings, most of which reflect Buddhist stories. </p>
+                <a href="https://www.tripadvisor.in/ShowUserReviews-g681052-d2535805-r392842392-Ajanta_Caves-Ajanta_Aurangabad_District_Maharashtra.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Kodagu</h3>
+                <br>
+                <p>Take one look at Kodagu's hilly emerald landscape perpetually blanketed by a cloud of mist, and you'll instantly see why this hill station is nicknamed "the Scotland of India."You can see the 21-meter Abbey Falls gushing after the rainy season.</p>
+                <a href="https://kodagu.nic.in/en/" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Ladakh</h3>
+                <br>
+                <p>Lies on the southern coast of Goa, Velsao beach connects with the Bogmalo beach lying to its north side and the Majorda & Colva beach lying to its south.</p>
+                <a href="https://www.thrillophilia.com/cities/ladakh" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Manali</h3>
+                <br>
+                <p>Located in Himachal Pradesh, the high-altitude resort town in the Himalayas. The tourist-friendly Old Manali neighborhood brims with chilled-out cafés where visitors can experience a local way of life.</p>
+                <a href="https://www.tripadvisor.in/Tourism-g297618-Manali_Manali_Tehsil_Kullu_District_Himachal_Pradesh-Vacations.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Rajasthan</h3>
+                <br>
+                <p>The land of kings, Rajasthan is a vibrant state that attracts history buffs, architecture lovers, wildlife enthusiasts and foodies alike. Rajasthan is one of those places that you can visit again and again.</p>
+                <a href="https://www.tourism.rajasthan.gov.in/" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Varanasi</h3>
+                <br>
+                <p>Situated on the banks of River Ganga in Uttar Pradesh, the holy city of Varanasi is counted among the most sacred places in India. The city is known for some of the most revered temples and Ghats in the country.</p>
+                <a href="https://www.tripadvisor.in/Tourism-g297685-Varanasi_Varanasi_District_Uttar_Pradesh-Vacations.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Srinagar</h3>
+                <br>
+                <p>Srinigar is a modern waterworld, dominated by Dal Lake , tree-lined Nagin Lake, and the Jhelum River. Engulf yourself in local culture by embracing your sea legs and renting one of the wooden boats called shikaras for a daytime.</p>
+                <a href="https://www.tripadvisor.in/Tourism-g297623-Srinagar_Srinagar_District_Kashmir_Jammu_and_Kashmir-Vacations.html" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact.jpg" alt="">
+        </div>
+ 
+         <form> 
+            <div class="inputBox">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Enter Your Mob-Number">
+                <input type="text" placeholder="Subject ...">
+            </div>
+            <textarea placeholder="Write Your Message ..." name="" id="" cols="30" rows="10"></textarea>
+            <a href="mailto:aniketkir63@gmail.com" class="btn">Drop us a mail</a>
+            
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- goa video section starts-->
+
+<video width="100%" height="auto" controls>
+    <source src="images/Goa Video.mp4">
+  </video>
+
+<!--- goa video section ends-->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Made by Aniket with 🎪</p>
+        </div>
+        <div class="box">
+            <h3> locations</h3>
+            <a href="https://www.tourmyindia.com/states/goa/">Goa</a>
+            <a href="https://www.holidify.com/places/mysore/mysore-palace-sightseeing-2954.html">Mysore</a>
+            <a href="https://www.tripadvisor.in/ShowUserReviews-g681052-d2535805-r392842392-Ajanta_Caves-Ajanta_Aurangabad_District_Maharashtra.html">Ellora & Ajanta Caves</a>
+            <a href="https://kodagu.nic.in/en/">Kodagu</a>
+            <a href="https://www.thrillophilia.com/cities/ladakh">Ladakh</a>
+            <a href="https://www.tripadvisor.in/Tourism-g297618-Manali_Manali_Tehsil_Kullu_District_Himachal_Pradesh-Vacations.html">Manali</a>
+            <a href="https://www.tourism.rajasthan.gov.in/">Rajasthan</a>
+            <a href="https://www.tourism.rajasthan.gov.in/">Varanasi</a>
+            <a href="https://www.tripadvisor.in/Tourism-g297623-Srinagar_Srinagar_District_Kashmir_Jammu_and_Kashmir-Vacations.html">Srinagar</a>
+            
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/aniket736">facebook</a>
+            <a href="https://www.instagram.com/alpha.xtremis">instagram</a>
+            <a href="https://twitter.com/aniket736">twitter</a>
+            <a href="https://www.linkedin.com/in/aniket736">Linked In</a>
+            <a href="https://github.com/ak736">Github</a>
+            
+        </div>
+
+    </div>
+
+    <!-- <h1 class="credit"> created by <span> mr. malik rehan </span> | all rights reserved! </h1> -->
+
+</section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
